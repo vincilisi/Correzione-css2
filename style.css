@@ -1,0 +1,62 @@
+/*Barra di ricerca*/
+.Logo{
+    width: 150px;
+    margin-top: 10px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+.link{
+    color: #585c7b;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.link:hover{
+    color: #949292;
+    border-bottom: 2px solid black;
+}
+
+/*Header*/
+
+header{
+    background-color: #EEEEEE;
+    height: 150px;
+    display: flex;
+}
+h1{
+    margin-left: 350px;
+}
+
+/*ezione Articoli*/
+
+h2{
+    text-align: center;
+}
+
+main{
+    display: flex ;
+}
+
+.imgArt{
+    width: 250px;
+}
+.contArt{
+    display: flex;
+    width: 60%;
+}
+
+aside{
+    background-color: #949292;
+}
+
